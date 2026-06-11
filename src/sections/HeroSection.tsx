@@ -233,7 +233,7 @@ export function HeroSection() {
                   {HERO_DATA.name}
                 </p>
                 <p className="font-mono text-xs text-cyan-400 text-center mb-6">
-                  @ Backend Software Developer
+                  @ Software Developer
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center mb-6">
                   {HERO_DATA.techStack.map((t) => (

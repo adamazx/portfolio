@@ -24,7 +24,7 @@ export function ContactSection() {
   const recipient =
     CONTACT_ITEMS.find((item) => item.label === "Email")?.value ?? "";
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.SyntheticEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
       setError("Please fill in all fields.");
@@ -116,7 +116,7 @@ export function ContactSection() {
                 Open to Opportunities
               </h4>
               <p className="text-muted text-sm leading-relaxed">
-                Currently looking for backend engineering roles where I can
+                Currently looking for software engineering roles where I can
                 build scalable systems and grow with a great team.
               </p>
             </GlassCard>

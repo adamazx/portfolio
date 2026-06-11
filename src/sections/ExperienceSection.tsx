@@ -41,7 +41,7 @@ export function ExperienceSection() {
         <SectionHeader
           tag="04. Experience"
           title={<>Journey & <span className="text-grad">Achievements</span></>}
-          subtitle="The path that shaped my expertise in backend engineering and system design."
+          subtitle="The path that shaped my expertise in software engineering and system design."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

@@ -14,9 +14,9 @@ export const NAV_ITEMS: NavItem[] = [
 
 export const HERO_DATA: HeroData = {
   name: 'Chayangkoon Tachao',
-  role: '// Backend Software Developer',
+  role: '// Software Developer',
   tagline:
-    'Passionate Backend Developer specializing in scalable systems, API architecture, and real-time applications. Building tomorrow\'s infrastructure today.',
+    'Passionate Developer specializing in scalable systems, API architecture, and real-time applications. Building tomorrow\'s infrastructure today.',
   badge: 'Available for opportunities',
   techStack: ['NestJS', 'Node.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker'],
   stats: [
@@ -35,7 +35,7 @@ export const EDUCATION: Education = {
 
 export const TIMELINE_ITEMS: TimelineItem[] = [
   { year: '2022', title: 'Started Digital Business Technology', subtitle: 'Rajamangala University of Technology Isan' },
-  { year: '2023', title: 'Discovered Backend Development', subtitle: 'Deep dive into Node.js, APIs, and databases' },
+  { year: '2023', title: 'Discovered Software Development', subtitle: 'Deep dive into Node.js, APIs, and databases' },
   { year: '2024', title: 'Built Production Systems', subtitle: 'Stock Analyzer and Health Checkup platforms' },
   { year: '2025', title: 'Graduation & Beyond', subtitle: 'Ready for the next big challenge' },
 ]
@@ -131,10 +131,10 @@ export const PROJECTS: Project[] = [
 export const EXPERIENCE_ITEMS: ExperienceItem[] = [
   {
     year: '2022 – Present',
-    title: 'Backend Developer (Academic & Personal)',
+    title: 'Developer (Academic & Personal)',
     subtitle: 'Self-directed development journey',
     description:
-      'Built production-grade systems from scratch, mastering the full backend stack from API design to Docker deployment.',
+      'Built production-grade systems from scratch, mastering the full stack from API design to Docker deployment.',
   },
   {
     year: '2024 – 2025',
@@ -145,7 +145,7 @@ export const EXPERIENCE_ITEMS: ExperienceItem[] = [
   },
   {
     year: '2025',
-    title: 'Backend Developer — Health Checkup System',
+    title: 'Full Stack Developer — Health Checkup System',
     subtitle: 'Healthcare management platform',
     description:
       'Designed REST APIs and database schemas using Node.js, Express, Prisma, and MySQL. Optimized query performance and collaborated with frontend developers to deliver efficient healthcare workflows.',

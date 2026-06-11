@@ -16,7 +16,7 @@ export function AboutSection() {
         <SectionHeader
           tag="01. About"
           title={<><span className="text-grad">Who</span> I Am</>}
-          subtitle="A dedicated backend developer who thrives on architecting systems that scale and perform under pressure."
+          subtitle="A dedicated software developer who thrives on architecting systems that scale and perform under pressure."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -82,7 +82,7 @@ export function AboutSection() {
               custom={0} variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true }}
               className="text-muted leading-loose mb-10 text-sm"
             >
-              I specialize in backend engineering with a focus on building scalable, reliable infrastructure. My experience spans from financial analytics platforms to decision-support systems, always prioritizing clean code and thoughtful architecture.
+              I specialize in software engineering with a focus on building scalable, reliable infrastructure. My experience spans from financial analytics platforms to decision-support systems, always prioritizing clean code and thoughtful architecture.
             </motion.p>
 
             <div className="relative pl-8" style={{ borderLeft: '1px solid var(--border)' }}>
