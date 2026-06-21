@@ -92,6 +92,8 @@ export function ContactSection() {
                     key={link.label}
                     href={link.href}
                     title={link.label}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-11 h-11 rounded-xl border flex items-center justify-center text-sm font-bold transition-all duration-200 hover:text-blue-400 hover:-translate-y-0.5"
                     style={{
                       background: "var(--surface)",
@@ -196,7 +198,7 @@ export function ContactSection() {
                       htmlFor="message"
                       className="block font-mono text-xs text-muted mb-2"
                     >
-                      {'Message'}
+                      Message
                     </label>
                     <textarea
                       id="message"

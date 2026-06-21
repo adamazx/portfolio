@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { SectionHeader } from '@/components/ui/SectionHeader'
 import { SKILL_CATEGORIES } from '@/data'
 import type { SkillColorVariant } from '@/types'
-//import { cn } from '@/utils/cn'
 
 const colorMap: Record<SkillColorVariant, string> = {
   blue:   'rgba(59,130,246,0.12)',

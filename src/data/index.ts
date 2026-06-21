@@ -21,7 +21,7 @@ export const HERO_DATA: HeroData = {
   techStack: ['NestJS', 'Node.js', 'TypeScript', 'PostgreSQL', 'Redis', 'Docker'],
   stats: [
     { value: '3.79', label: 'GPA' },
-    { value: '3+', label: 'Projects' },
+    { value: '3', label: 'Projects' },
   ],
 }
 
@@ -100,7 +100,7 @@ export const PROJECTS: Project[] = [
       'Successfully deployed production-ready system using Docker with Redis-powered performance optimization.',
     techStack: ['NestJS', 'PostgreSQL', 'Redis', 'Docker', 'WebSocket'],
     liveUrl: '#',
-    githubNote: 'This is a company project from a internship period, so the source code is private.',
+    githubNote: 'This is a company project from an internship period, so the source code is private.',
   },
   {
     id: 'health-checkup',
@@ -112,7 +112,7 @@ export const PROJECTS: Project[] = [
       'Comprehensive health management backend with optimized database queries, clean API structure, and business logic for medical workflows.',
     techStack: ['Node.js', 'Express', 'Prisma', 'MySQL'],
     liveUrl: '#',
-    githubUrl: 'https://github.com/adamazx/healt-checkin',
+    githubUrl: 'https://github.com/adamazx/health-checkin',
   },
   {
     id: 'motorcycle-assistant',
